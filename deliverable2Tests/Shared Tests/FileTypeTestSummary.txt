@@ -1,0 +1,11 @@
+Notes:
+--> JUnit class —> Assert (ever prevalent in this java file)
+	  --> A set of assertion methods useful for writing tests.
+	  --> Essentially a boolean error checker that throws an error only if false. If true, all is good (no action).
+    --> Output can be displayed to console for quick checking, or outputted to an error log text file.
+    
+--> In particular, this class is testing the File Types, and the default file extensions for these file types.
+    --> File types supported:
+        --> Text: .CSV , .PDF , .XML
+        --> Links: .HTML
+        --> Images: .JPEG

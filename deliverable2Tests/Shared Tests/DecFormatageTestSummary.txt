@@ -1,0 +1,2 @@
+This test case tests the ratio method from NumberUtils. Very simple and straightforward. Good thing to implement. 
+We tested the ability of the software to correctly form ratios as well as a method for truncating found in the same class. 
