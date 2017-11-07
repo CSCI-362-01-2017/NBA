@@ -1,10 +1,7 @@
 import pkg.NumberUtils;
 
-public class NumberUtilsDriver
-{
-	public static void main (String[] args)
-	{
-		
+public class NumberUtilsDriver{
+	public static void main (String[] args){
 		try{
 			System.out.println(NumberUtils.truncate(Double.parseDouble(args[0]), 2));
 		}
