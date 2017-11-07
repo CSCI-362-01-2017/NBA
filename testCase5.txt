@@ -1,7 +1,0 @@
-Test #0005
-Mathematical functions must accept redundancy.
-NumberUtils.java
-truncate(Number n)
-3.88
-3.88
-
