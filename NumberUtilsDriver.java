@@ -1,10 +1,15 @@
-import home.dave.TestAutomation.project.sigmah_master.src.main.java.org.sigmah.client.util.NumberUtils;
+import pkg.NumberUtils;
 
 public class NumberUtilsDriver
 {
 	public static void main (String[] args)
 	{
-		double x = NumberUtils.truncate(8.018);
-		System.out.println(x);
+		
+		try{
+			System.out.println(NumberUtils.truncate(Double.parseDouble(args[0]), 2));
+		}
+		catch(Exception e){
+			System.out.println(e);
+		}
 	}
 }
