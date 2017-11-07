@@ -1,7 +1,0 @@
-Test #0003
-Mathematical functions must be accurate.
-NumberUtils.java
-truncate(Number n)
-3
-3.00
-
