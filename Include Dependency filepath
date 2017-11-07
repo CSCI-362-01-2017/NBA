@@ -1,1 +1,0 @@
-javac -cp ".;'/home/dave/Downloads/sigmah-master/src/main/java/org/sigmah/client/util/ClientUtils.java'" Dummy_Driver.java
