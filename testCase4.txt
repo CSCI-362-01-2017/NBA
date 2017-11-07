@@ -1,7 +1,0 @@
-Test #0004
-Mathematical functions must refuse bad input.
-NumberUtils.java
-truncate(Number n)
-string
-error
-
