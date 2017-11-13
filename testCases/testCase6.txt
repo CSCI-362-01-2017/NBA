@@ -1,0 +1,6 @@
+Test #0006
+Returns a ratio from a number and decimal ratio.
+NumberUtils.java
+ratio(Number n, Number in)
+2, 0.0
+0.0
