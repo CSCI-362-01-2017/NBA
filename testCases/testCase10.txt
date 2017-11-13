@@ -3,4 +3,4 @@ Returns a ratio from a number and decimal ratio.
 NumberUtils.java
 ratio(Number n, Number in)
 1, 1.5
-66.67
+66.66
