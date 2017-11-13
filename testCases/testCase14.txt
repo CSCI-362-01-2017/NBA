@@ -3,4 +3,4 @@ Returns ratio as a String percentage.
 NumberUtils.java
 ratioAsString(Number n, Number in)
 0.5, 1.5
-66.67%
+66.66%
