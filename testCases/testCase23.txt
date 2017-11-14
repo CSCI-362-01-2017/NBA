@@ -3,4 +3,4 @@ Returns a truncated number.
 NumberUtils.java
 truncate(Number n, int decimals)
 2.1234,-1
-decimals must not be lower than 0.
+java.lang.IllegalArgumentException: decimals must not be lower than 0.

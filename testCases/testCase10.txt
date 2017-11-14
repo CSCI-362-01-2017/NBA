@@ -2,5 +2,5 @@ Test #010
 Returns a ratio from a number and decimal ratio.
 NumberUtils.java
 ratio(Number n, Number in)
-1, 1.5
+1,1.5
 66.66

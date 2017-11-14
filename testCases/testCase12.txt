@@ -2,5 +2,5 @@ Test #012
 Returns ratio as a String percentage.
 NumberUtils.java
 ratioAsString(Number n, Number in)
-1, null
+1,null
 -
