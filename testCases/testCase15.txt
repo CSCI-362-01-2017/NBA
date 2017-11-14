@@ -1,6 +1,6 @@
-1. Test #015
-2. Null must be returned if passed in.
-3. NumberUtils.java
-4. truncateDouble(final Double value)
-5. null
-6. null
+Test #015
+Null must be returned if passed in.
+NumberUtils.java
+truncateDouble(final Double value)
+null
+null
