@@ -1,0 +1,6 @@
+1. Test #018
+2. Output must be consistent with previous tests. 
+3. NumberUtils.java
+4. truncateDouble(final Double value)
+5. 3.88
+6. 3.88

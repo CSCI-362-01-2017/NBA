@@ -1,0 +1,6 @@
+1. Test #020
+2. Method must refuse bad values. 
+3. NumberUtils.java
+4. truncateDouble(final Double value)
+5. "Hello World!"
+6. error!
