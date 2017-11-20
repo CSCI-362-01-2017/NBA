@@ -1,7 +1,6 @@
-Test #0001
-Mathematical functions must be accurate.
+Test #001
+Truncate the decimal part of a number to keep only 2 decimals.
 NumberUtils.java
 truncate(Number n)
 3.883
 3.88
-
