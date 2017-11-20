@@ -1,7 +1,0 @@
-Notes:
---> This is a test case for the language detection system that uses cookies, and the browser's default language to determine the language to be displayed.
-
---> Uses Mockito, which is a mocking framework that lets you write beautiful tests with a clean & simple API. The tests are very readable and they produce clean verification errors.
-      --> Third party software to help with this, open-source just like Sigmah
-      --> http://site.mockito.org
-
