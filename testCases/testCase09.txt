@@ -1,5 +1,5 @@
 Test #009
-Returns a ratio from a number and decimal ratio.
+Returns a ratio from a number and ratio number.
 NumberUtils.java
 ratio(Number n, Number in)
 12,null
