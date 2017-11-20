@@ -1,5 +1,5 @@
 Test #020
-Method must refuse bad values. 
+Truncate the decimal part of a double to keep only 2 decimals.
 NumberUtils.java
 truncateDouble(final Double value)
 "Hello World!"
