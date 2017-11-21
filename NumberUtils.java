@@ -46,8 +46,8 @@ public final class NumberUtils {
 	 * @return The truncated number.
 	 */
 	public static String truncate(Number n) {
-		//return truncate(n, 2);
-		return truncate(n, 3);
+		//return truncate(n, 2); //SOURCE code
+		return truncate(n, 3); //FAULT INJECTION code
 	}
 
 	/**
@@ -59,8 +59,8 @@ public final class NumberUtils {
 	 */
 	public static Double truncateDouble(final Double value) {
 		
-		//if (value == null) {
-		if(value != null) {
+		//if (value == null) { //SOURCE code
+		if(value != null) { //FAULT INJECTION code
 			return null;
 		}
 		
@@ -82,8 +82,8 @@ public final class NumberUtils {
 			throw new IllegalArgumentException("n must not be null.");
 		}
 
-		//if (decimals < 0) {
-		if (decimals > 0) {
+		//if (decimals < 0) { //SOURCE code
+		if (decimals > 0) { //FAULT INJECTION code
 			throw new IllegalArgumentException("decimals must not be lower than 0.");
 		}
 
@@ -97,8 +97,8 @@ public final class NumberUtils {
 		final String truncatedDoubleAsString;
 
 		// If the number as no decimal part, nothing to do.
-		//if (index == -1) {
-		if (index = -1) {
+		//if (index == -1) { //SOURCE code
+		if (index = -1) { //FAULT INJECTION code
 			truncatedDoubleAsString = asString;
 		}
 		// Truncates the decimal part.
@@ -109,8 +109,8 @@ public final class NumberUtils {
 				truncatedDoubleAsString = asString.substring(0, index);
 			} else {
 
-				//final int last = index + 1 + decimals;
-				final int last = index + 2 + decimals;
+				//final int last = index + 1 + decimals; //SOURCE code
+				final int last = index + 2 + decimals; //FAULT INJECTION code
 
 				if (last > asString.length()) {
 					truncatedDoubleAsString = asString;
