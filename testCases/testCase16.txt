@@ -1,6 +1,0 @@
-Test #016
-Truncate the decimal part of a double to keep only 2 decimals.
-NumberUtils.java
-truncateDouble(final Double value)
-3.883
-3.88
