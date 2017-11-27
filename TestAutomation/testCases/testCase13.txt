@@ -1,0 +1,6 @@
+Test #013
+Returns ratio as a String percentage.
+NumberUtils.java
+ratioAsString(Number n, Number in)
+2,0.5
+400.0 %

@@ -1,0 +1,6 @@
+Test #015
+Null must be returned if passed in.
+NumberUtils.java
+truncateDouble(final Double value)
+null
+null

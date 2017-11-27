@@ -1,0 +1,6 @@
+Test #024
+Returns a truncated number.
+NumberUtils.java
+truncate(Number n, int decimals)
+2.16,2
+2.16

@@ -1,0 +1,6 @@
+Test #022
+Returns a truncated number.
+NumberUtils.java
+truncate(Number n, int decimals)
+null,2
+java.lang.NumberFormatException: For input string: "null"

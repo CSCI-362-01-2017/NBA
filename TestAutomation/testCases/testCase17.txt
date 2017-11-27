@@ -1,0 +1,6 @@
+Test #017
+Output must be correct.
+NumberUtils.java
+truncateDouble(final Double value)
+3.888
+3.88

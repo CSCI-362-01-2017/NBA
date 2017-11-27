@@ -1,0 +1,6 @@
+Test #023
+Returns a truncated number.
+NumberUtils.java
+truncate(Number n, int decimals)
+2.1234,-1
+java.lang.IllegalArgumentException: decimals must not be lower than 0.

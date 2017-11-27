@@ -1,0 +1,6 @@
+Test #020
+Method must refuse bad values. 
+NumberUtils.java
+truncateDouble(final Double value)
+"Hello World!"
+java.lang.NumberFormatException: For input string: "Hello World!"
