@@ -1,5 +1,5 @@
-Test #014
-Returns ratio as a String percentage.
+Test #14
+Computes a ratio and returns it as string.
 NumberUtils.java
 ratioAsString(Number n, Number in)
 0.5,1.5
