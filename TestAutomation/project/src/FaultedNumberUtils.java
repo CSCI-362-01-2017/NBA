@@ -98,7 +98,7 @@ public final class NumberUtils {
 
 		// If the number as no decimal part, nothing to do.
 		//if (index == -1) { //SOURCE code
-		if (index == -1) { //FAULT INJECTION code
+		if (index == 1) { //FAULT INJECTION code
 			truncatedDoubleAsString = asString;
 		}
 		// Truncates the decimal part.
