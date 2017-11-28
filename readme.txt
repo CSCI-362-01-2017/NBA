@@ -4,6 +4,9 @@ How-To Documentation
     --> git clone https://github.com/CSCI-362-01-2017/NBA
   C.	Navigate to the TestAutomation folder
     --> cd TestAutomation
+    --> cd scripts
+    --> chmod u+x runAllTests.sh
+    --> cd ..
   D.	Execute scripts/runAllTests.sh to run the source framework and open the html file in the default browser.
     --> ./runAllTests.sh
   E.  Navigate to the scripts folder, then rename "NumberUtils.java" to "SourceNumberUtils.java"
