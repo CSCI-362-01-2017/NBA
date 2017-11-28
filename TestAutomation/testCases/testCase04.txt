@@ -1,5 +1,5 @@
-Test #0004
-Mathematical functions must refuse bad input.
+Test #04
+Truncate the decimal part of a number to keep only 2 decimals.
 NumberUtils.java
 truncate(Number n)
 string
