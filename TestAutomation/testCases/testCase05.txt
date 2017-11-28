@@ -1,5 +1,5 @@
-Test #0005
-Mathematical functions must accept redundancy.
+Test #05
+Truncate the decimal part of a number to keep only 2 decimals.
 NumberUtils.java
 truncate(Number n)
 3.88
