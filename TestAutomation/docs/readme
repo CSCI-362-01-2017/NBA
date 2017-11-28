@@ -6,5 +6,6 @@ How-To Documentation
     --> cd TestAutomation
   D.	Execute scripts/runAllTests.sh to run the source framework and open the html file in the default browser.
     --> ./runAllTests.sh
-  E.  Execute scripts/runAllTests.sh to run the faulted framework and open the html file in the default browser.
-    --> ./runAllFaultedTests.sh
+  E.  Change line 14 of runAllTests.sh to compile "FaultedNumberUtils.java" instead of "NumberUtils.java" This will compile
+      our faults and the next time you run the script, it will show some tests failing.
+    --> ./runAllTests.sh
