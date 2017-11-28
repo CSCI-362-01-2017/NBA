@@ -6,6 +6,7 @@ How-To Documentation
     --> cd TestAutomation
   D.	Execute scripts/runAllTests.sh to run the source framework and open the html file in the default browser.
     --> ./runAllTests.sh
-  E.  Change line 14 of runAllTests.sh to compile "FaultedNumberUtils.java" instead of "NumberUtils.java" This will compile
-      our faults and the next time you run the script, it will show some tests failing.
+  E.  Navigate to the scripts folder, then rename "NumberUtils.java" to "SourceNumberUtils.java"
+  F.  Rename "FaultedNumberUtils.java" to "NumberUtils.java" this will make the ACTIVE class, the faulted class. 
+  G.  Rerun the script.
     --> ./runAllTests.sh
