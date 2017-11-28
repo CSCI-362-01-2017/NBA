@@ -1,6 +1,8 @@
-This is Team NBA and our Automated Testing Framework, we are testing the FOSS project Sigmah.
-We need to update this with instructions for what Bowring needs to do to test our tests.
-Clone/download
-what to make sure he has installed, etc.
-Builds
-what to type in and where
+How-To Documentation
+  A.	Requirements: Linux OS (Ubuntu 16.04.3 LTS), Java 1.8, Git
+  B.	Clone GitHub Repository:
+    --> git clone https://github.com/CSCI-362-01-2017/NBA
+  C.	Navigate to the TestAutomation file,
+    --> cd TestAutomation/scripts
+  D.	Execute scripts/runAllTests.sh to run the framework and open the html file in the default browser.
+    --> ./runAllTests.sh
