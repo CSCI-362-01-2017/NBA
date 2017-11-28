@@ -4,5 +4,7 @@ How-To Documentation
     --> git clone https://github.com/CSCI-362-01-2017/NBA
   C.	Navigate to the TestAutomation file,
     --> cd TestAutomation/scripts
-  D.	Execute scripts/runAllTests.sh to run the framework and open the html file in the default browser.
+  D.	Execute scripts/runAllTests.sh to run the source framework and open the html file in the default browser.
     --> ./runAllTests.sh
+  E.  Execute scripts/runAllTests.sh to run the faulted framework and open the html file in the default browser.
+    --> ./runAllFaultedTests.sh
