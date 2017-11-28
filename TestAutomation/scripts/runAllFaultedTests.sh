@@ -11,7 +11,7 @@ export CLASSPATH=./
 TESTREPORT="./reports/NBA-TestReport.html"
 
 #Here we compile the source code and Drivers
-javac ./project/src/NumberUtils.java
+javac ./project/src/FaultedNumberUtils.java
 for file in ./testCasesExecutables/*.java
 do
   javac $file
