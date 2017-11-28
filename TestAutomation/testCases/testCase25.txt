@@ -1,5 +1,5 @@
-Test #025
-Returns a truncated number.
+Test #25
+Truncate the decimal part of a number.
 NumberUtils.java
 truncate(Number n, int decimals)
 5.67,0
